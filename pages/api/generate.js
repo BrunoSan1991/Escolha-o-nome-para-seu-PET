@@ -49,8 +49,7 @@ export default async function (req, res) {
 }
 
 function generatePrompt(animal) {
-  const capitalizedAnimal =
-    animal[0].toUpperCase() + animal.slice(1).toLowerCase();
+  const capitalizedAnimal = animal[0].toUpperCase() + animal.slice(1).toLowerCase();
   return `Suggest three names for an animal that is a superhero.
 
 Animal: Cat

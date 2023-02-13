@@ -45,11 +45,11 @@ export default function Home() {
           <input
             type="text"
             name="animal"
-            placeholder="Enter an animal"
+            placeholder="Tipo de pet"
             value={animalInput}
             onChange={(e) => setAnimalInput(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Gerar nome" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
